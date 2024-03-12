@@ -2,7 +2,7 @@
 
 This is an extension to **hide** the top panel on GDM **login** and **lock** screen.
 
-With a multi-user desktop system, you may not want average users getting their **paws** all over Quick Settings in the top panel at login. My workstation is acting as a desktop, a kiosk and a network server (over WiFi) so the last thing I need is **Jamesy** disabling my network connection at the login screen whenever I leave the keyboard on the couch while I go get a coffee.
+With a multi-user desktop system, you may **not** want average users getting their **paws** all over Quick Settings in the top panel at login. My workstation is acting as a desktop, a kiosk and a network server (over WiFi) so the last thing I need is **Jamesy** disabling my network connection at the login screen whenever I leave the keyboard on the couch while I go get a coffee.
 
 **Jamesy** is a sheepdog and I know him, **very well**.
 
