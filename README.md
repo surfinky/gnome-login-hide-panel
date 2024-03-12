@@ -20,12 +20,9 @@ $ sudo cp -r ./gnome-login-hide-panel-main /usr/share/gnome-shell/extensions/gno
 
 Restart your Gnome session to complete the installation.
 
-You will see the extension listed under "Built-in" section of Extension list. You do not have to enable the extension however, you must use the preferences by clicking "Settings" or using the CLI tool.
+You will see the extension listed under "Built-in" section of Extension list. You do not have to enable the extension for preferences to take effect. It is recommended that you restart your GDM for changes to take effect.
 
 ```$ gnome-extensions prefs gnome-login-hide-panel@inchsurf.com```
 
-**Note user authorization is required to enable or disable the extension for gdm user.**
+**Note authorization is required to apply changes for the login screen.**
 
-### Future
-
-Gnome hide lock screen top panel coming soon.
