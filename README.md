@@ -15,7 +15,7 @@ $ wget https://github.com/surfinky/gnome-login-hide-panel/archive/main.zip -O ./
 
 $ sudo unzip -d /usr/share/gnome-shell/extensions/gnome-login-hide-panel@inchsurf.com ./gnome-login-hide-panel.zip
 ```
-Restart your GDM (logout).
+Restart your GDM.
 
 Enable or disable the extension which will be listed under "Built-in" section of Extension list. Alternatively, you can use the CLI tool.
 
