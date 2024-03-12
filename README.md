@@ -21,8 +21,8 @@ Enable or disable the extension which will be listed under "Built-in" section of
 
 ```$ gnome-extensions enable gnome-hide-login-panel@inchsurf.com```
 
-Please note user authorization is required to enable or disable the extension. 
+**Note user authorization is required to enable or disable the extension.**
 
-# Future
+### Future
 
 Gnome hide lock screen panel coming soon.
