@@ -28,4 +28,4 @@ Enable or disable the extension which will be listed under "Built-in" section of
 
 ### Future
 
-Gnome hide lock screen panel coming soon.
+Gnome hide lock screen top panel coming soon.
