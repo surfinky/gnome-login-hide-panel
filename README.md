@@ -8,7 +8,7 @@ Jamesy is a **sheepdog**. I know him, **very well**.
 
 # Installation
 
-To make this extension available to all users on the system, install in the /usr/share/gnome-shell/extensions directory. Note that newly-installed machine-wide extensions are disabled by default.
+To make this extension available to all users on the system, install in the **/usr/share/gnome-shell/extensions** directory. Note that newly-installed machine-wide extensions are disabled by default.
 
 ```
 $ wget https://github.com/surfinky/gnome-login-hide-panel/archive/main.zip -O ./gnome-login-hide-panel-main.zip
