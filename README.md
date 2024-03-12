@@ -6,7 +6,7 @@ With a multi-user desktop system, you may **not** want average users getting the
 
 **Jamesy** is a sheepdog and I know him, **very well**.
 
-# Installation
+## Installation
 
 To make this extension available to all users on the system, install in the **/usr/share/gnome-shell/extensions** directory. Note that newly-installed machine-wide extensions are disabled by default.
 
