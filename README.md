@@ -10,11 +10,12 @@ Jamesy is a **sheepdog**. I know him, **very well**.
 
 To make this extension available to all users on the system, install in the /usr/share/gnome-shell/extensions directory. Note that newly-installed machine-wide extensions are disabled by default.
 
-```
-$ wget https://github.com/surfinky/gnome-login-hide-panel/archive/main.zip -O ./gnome-login-hide-panel.zip
+```$ wget https://github.com/surfinky/gnome-login-hide-panel/archive/main.zip -O ./gnome-login-hide-panel-main.zip```
 
-$ sudo unzip -d /usr/share/gnome-shell/extensions/gnome-login-hide-panel@inchsurf.com ./gnome-login-hide-panel.zip
-```
+```$ unzip gnome-login-hide-panel-main.zip```
+
+```$ sudo cp -r ./gnome-login-hide-panel-main /usr/share/gnome-shell/extensions/gnome-login-hide-panel@inchsurf.com```
+
 Restart your GDM.
 
 Enable or disable the extension which will be listed under "Built-in" section of Extension list. Alternatively, you can use the CLI tool.
