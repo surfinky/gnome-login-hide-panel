@@ -23,7 +23,7 @@ $ sudo cp -r ./gnome-login-hide-panel-main /usr/share/gnome-shell/extensions/gno
 Now, **restart** your Gnome session to complete the installation.
 
 
-You will see the extension listed under the "Built-in" section of Gnome Extensions list. Enable and adjust preferences to your liking. It is recommended that you restart your GDM session so that changes to preferences take full effect.
+You will see the extension listed under the "Built-in" section of Gnome Extensions list. Duly enable the extension and adjust preferences as per your liking. It is recommended that you restart your GDM session so that changes to preferences take full effect.
 
 
 ```
