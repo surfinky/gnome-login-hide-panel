@@ -20,7 +20,7 @@ $ sudo cp -r ./gnome-login-hide-panel-main /usr/share/gnome-shell/extensions/gno
 
 Restart your Gnome session to complete the installation.
 
-You will see the extension listed under the "Built-in" section of the Extension list. You do not have to enable the extension for preferences to be effective. It is recommended that you restart your GDM so that preference changes are fully applied.
+You will see the extension listed under the "Built-in" section of the Extension list. You do not have to enable the extension for preferences to be effective. It is recommended that you restart your GDM so that changes to preferences are fully applied.
 
 ```$ gnome-extensions prefs gnome-login-hide-panel@inchsurf.com```
 
