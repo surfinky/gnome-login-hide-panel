@@ -59,15 +59,21 @@ function buildPrefsWidget(gsettings) {
     let lock_setting_switch = new Gtk.Switch({ active: gsettings.get_boolean('lock') });
 
     lock_setting_switch.connect('notify::active',
+
         function (button) {
+        
             gsettings.set_boolean('lock', button.active);
+        
+            GLib.spawn_command_line_async(`gnome-extensions disable gnome-login-hide-panel@inchsurf.com; gnome-extensions enable gnome-login-hide-panel@inchsurf.com`);
+            
         }
+
     );
 
-    /*hbox.append(lock_setting_label);
+    hbox.append(lock_setting_label);
     hbox.append(lock_setting_switch);
-    vbox.append(hbox);*/
-
+    vbox.append(hbox);
+    
     widget.append(vbox);
 
     return widget;
