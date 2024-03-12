@@ -18,13 +18,13 @@ $ unzip ./gnome-login-hide-panel-main.zip
 $ sudo cp -r ./gnome-login-hide-panel-main /usr/share/gnome-shell/extensions/gnome-login-hide-panel@inchsurf.com
 ```
 
-Restart your GDM.
+Restart your Gnome session to complete the installation.
 
-Enable or disable the extension which will be listed under "Built-in" section of Extension list. Alternatively, you can use the CLI tool.
+You will see the extension listed under "Built-in" section of Extension list. You do not have to enable the extension however, you must use the preferences by clicking "Settings" or using the CLI tool.
 
-```$ gnome-extensions enable gnome-hide-login-panel@inchsurf.com```
+```$ gnome-extensions prefs gnome-login-hide-panel@inchsurf.com```
 
-**Note user authorization is required to enable or disable the extension.**
+**Note user authorization is required to enable or disable the extension for gdm user.**
 
 ### Future
 

@@ -18,33 +18,18 @@ export default class GnomeLoginHidePanelExtension extends Extension {
     constructor(metadata) {
         super(metadata);
     }
+
+    init() {}
     
     enable() {
 
-        this._settings = this.getSettings();
         this._username = GLib.get_user_name();
-        this._hiding = this._settings.get_boolean('hide');
         
         if (this._username == 'gdm') PanelBox.hide();
         
-        if (this._username !== 'gdm' && !this._hiding) {
-            GLib.spawn_command_line_async('pkexec machinectl shell gdm@ /bin/bash -c "gnome-extensions enable gnome-login-hide-panel@inchsurf.com"');
-        }
-        
-        this._settings.set_boolean('hide', true);
-        
     }
 
-    disable() {
-        
-        if (this._username !== 'gdm') {
-            this._settings.set_boolean('hide', false);
-            GLib.spawn_command_line_async('pkexec machinectl shell gdm@ /bin/bash -c "gnome-extensions disable gnome-login-hide-panel@inchsurf.com"');
-        }
-
-        //PanelBox.show();
-
-    }
+    disable() {}
 }
 
 function init() {

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
   <schema id="org.gnome.shell.extensions.gnome-login-hide-panel" path="/org/gnome/shell/extensions/gnome-login-hide-panel/">
-    <key name="hide" type="b">
+    <key name="login" type="b">
+      <default>false</default>
+    </key>
+    <key name="lock" type="b">
       <default>false</default>
     </key>
   </schema>
